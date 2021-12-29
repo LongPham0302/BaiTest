@@ -1,0 +1,537 @@
+@font-face {
+    font-family: Montserrat;
+    src: local(Montserrat-Regular), url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap') format("woff2") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.header-container {
+    width: 100%;
+    background: #111111;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-container img {
+    width: 226px;
+    height: 26px;
+}
+
+.header-container .menu {
+    display: flex;
+    color: #ffffff;
+    list-style: none;
+    gap: 0 76px;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.header-container .menu .menu-item {
+    font-family: Montserrat;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.box-container {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.box-container img {
+    width: 100%;
+}
+
+.box-title {
+    font-size: 30px;
+    line-height: 60px;
+    letter-spacing: 5px;
+    color: #ffffff;
+    position: absolute;
+    top: 65%;
+    left: 9%;
+    font-family: Montserrat;
+}
+
+.box-content {
+    font-size: 20px;
+    line-height: 35px;
+    color: white;
+    position: absolute;
+    top: 77%;
+    left: 9%;
+    width: 600px;
+}
+
+.product-section {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.product__title {
+    text-align: center;
+    color: #f96400
+}
+
+.product__paragraph {
+    color: #f96400;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.product__list {
+    max-width: 1600px;
+    display: flex;
+    padding: 0 15px;
+    margin: 100px auto;
+}
+
+.product-item {
+    width: 33.3333333%;
+    position: relative;
+}
+
+.product-item img {
+    width: 100%
+}
+
+.product-item__description {
+    padding: 20px 8px 15px 27px;
+    width: 369px;
+    height: 79px;
+    border: 3px solid black;
+    position: absolute;
+    bottom: -10%;
+    left: 10%;
+    background: white;
+}
+
+.product-item__description span {
+    font-size: 20px;
+    font-weight: 800;
+    display: inline-block;
+    width: 188px;
+}
+
+.product-item__number {
+    width: 96px;
+    height: 96px;
+    position: absolute;
+    text-align: center;
+    line-height: 96px;
+    left: -30px;
+    top: -30px;
+    font-size: 30px;
+}
+
+.product-box {
+    width: 300px;
+    margin-left: 18px;
+    display: inline-block;
+}
+
+.product-box-description {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.product-likes {
+    display: flex;
+    align-items: center;
+}
+
+.product-likes .icon {
+    width: 19px;
+    height: 16px;
+}
+
+.product-container {
+    padding: 147px 0 0 174px;
+}
+
+.product-box-img {
+    width: 100%;
+}
+
+.see-more {
+    text-align: center;
+    padding-top: 116px;
+}
+
+.btn-see {
+    width: 200px;
+    height: 60px;
+    font-size: 23px;
+    margin: auto;
+    font-weight: 800;
+    border: 3px solid #020001;
+    background: #ffffff;
+}
+
+.brand-container {
+    background: #0565bb;
+    min-height: 956px;
+    width: 100%;
+    text-align: center;
+    padding-top: 149px;
+    margin-top: 150px;
+    position: relative;
+}
+
+.brand-title {
+    color: #fcd32a;
+    font-size: 45px;
+    line-height: 60px;
+}
+
+.brand-content {
+    width: 682px;
+    margin: auto;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: NotoSansCJKkr;
+}
+
+.brand-obj {
+    position: absolute;
+    left: 160px;
+}
+
+.brand-obj-two {
+    position: absolute;
+    right: 134px;
+    top: 64px
+}
+
+.brand-obj-three {
+    position: absolute;
+    z-index: 1;
+    right: 10px;
+    top: 200px;
+    width: 15%;
+}
+
+.brand-box {
+    width: 50%;
+    margin: 77px auto;
+    position: relative;
+}
+
+.brand-box-top {
+    height: 24px;
+    background: #111111;
+    width: 100%;
+}
+
+.brand-box-bottom {
+    width: 100%;
+    display: flex;
+}
+
+.brand-box-bottom img {
+    width: 50%;
+}
+
+.brand-box-text {
+    width: 50%;
+    background: white;
+    border: 3px solid black;
+    position: relative;
+}
+
+.brand-box-title {
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.brand-box-content {
+    font-family: NotoSansCJKkr;
+    font-size: 16px;
+    font-weight: 300;
+    padding-left: 65px;
+    padding-right: 50px;
+}
+
+.brand-btn {
+    min-width: 100px;
+    padding: 10px 27px;
+    border: 2px solid black;
+    position: absolute;
+    left: 70px;
+    font-family: Montserrat;
+    font-size: 23px;
+    font-weight: 800;
+    border-radius: 5px;
+}
+
+.happend {
+    text-align: center;
+    width: 100%;
+    background: #fccb05;
+    padding-top: 158px;
+    padding-bottom: 160px;
+    position: relative;
+}
+
+.happend-title {
+    font-family: Montserrat;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.happend-content {
+    width: 680px;
+    margin: 40px auto;
+}
+
+.brand-gold {
+    background: #fccb05;
+    margin: auto !important;
+    font-family: Montserrat;
+    font-size: 23px;
+    font-weight: 800;
+    border-radius: 5px;
+    padding: 10px 27px;
+    border: 3px solid black;
+}
+
+.dice {
+    position: absolute;
+    top: 30px;
+    right: 50px;
+}
+
+.dice-two {
+    position: absolute;
+    top: 150px;
+    right: 50px;
+}
+
+.list-happend-left {
+    background: #ff5500;
+    width: 20%;
+    height: 480px;
+    padding-top: 30px;
+    padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.whpn-issue {
+    font-family: Montserrat;
+    font-size: 55px;
+    font-weight: 800;
+    line-height: 57px;
+    max-width: 50px;
+    position: relative;
+}
+
+.whpn-issue-img {
+    width: 50%;
+}
+
+.list-happend {
+    display: flex;
+    margin-top: 128px;
+}
+
+.list-happend-right {
+    width: 80%;
+    height: 510px;
+    position: relative;
+    display: flex;
+}
+
+.list-happend-item {
+    width: 20%;
+    border: 3px solid #000;
+    position: relative;
+    text-align: center;
+}
+
+.list-happend-item span {
+    background: black;
+    width: 100%;
+    display: block;
+    height: 10%;
+    color: white;
+    padding-top: 30px;
+}
+
+.list-happend-item img {
+    height: 85%;
+    width: 100%;
+}
+
+.active {
+    background-color: #ff5500;
+}
+
+.hot {
+    position: absolute;
+    left: 20px;
+    z-index: 1;
+    width: 111px;
+}
+
+.section {
+    text-align: center;
+    position: relative;
+    padding-top: 140px;
+}
+
+.video {
+    width: 20%;
+    overflow: hidden;
+}
+
+.video img {
+    width: 100%;
+}
+
+.bottom {
+    left: 45%;
+}
+
+.video {
+    position: absolute;
+    left: -5%;
+}
+
+.section-title {
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 800;
+    font-family: Montserrat;
+}
+
+.section-content {
+    width: 600px;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+.videobox {
+    margin-top: 100px;
+}
+
+.videoObject07 {
+    position: absolute;
+    width: 10%;
+    top: 8%;
+}
+
+.tim {
+    position: absolute;
+    width: 10%;
+    top: 18%;
+    right: 12%;
+}
+
+.objvideo {
+    position: absolute;
+    right: -5%;
+    top: 50%;
+    width: 300px;
+    overflow-x: hidden;
+}
+
+.objvideo img {
+    overflow: hidden;
+    width: 100%;
+    overflow: hidden;
+}
+
+.img-user {
+    position: absolute;
+    top: 90%;
+    overflow-x: hidden;
+}
+
+.videoObject03 {
+    position: absolute;
+    left: 10%;
+    top: 95%;
+    z-index: -1;
+}
+
+.error {
+    width: 20%;
+    position: absolute;
+    left: 20%;
+    top: 110%;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    padding-top: 500px;
+}
+
+.row_top {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+}
+
+.top-left {
+    width: 30%;
+    padding-left: 200px;
+}
+
+.top-left ul {
+    list-style: none;
+    padding: 0;
+}
+
+.top-right {
+    display: flex;
+    width: 70%;
+    justify-content: flex-end;
+    padding-right: 100px;
+    gap: 0 50px;
+    text-align: left;
+}
+
+.top-right .menu {
+    list-style: none;
+    text-align: left;
+    padding: 0;
+}
+
+.list-info {
+    text-align: center;
+}
+
+.row_bottom {
+    width: 100%;
+}
+
+.row_bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-left {
+    padding-left: 200px;
+}
+
+.bottom-right {
+    display: flex;
+    gap: 0 40px
+}
+
+.bottom-right {
+    list-style: none;
+}
